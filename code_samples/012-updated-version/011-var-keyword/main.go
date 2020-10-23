@@ -15,6 +15,7 @@ var y = 43
 // false for booleans, 0 for integers, 0.0 for floats, "" for strings,
 // and nil for pointers, functions, interfaces, slices, channels, and maps.
 var z int
+var f float64 = 42
 
 func main() {
 	// short declaration operator
@@ -27,6 +28,8 @@ func main() {
 	foo()
 
 	fmt.Println(z)
+
+	fmt.Println("float64:", f/31)
 }
 
 func foo() {
